@@ -1,6 +1,6 @@
 # LINQCore
 
-##ZADANIE 1 – GENEROWANIE KWADRATÓW NIEKTÓRYCH LICZB
+## ZADANIE 1 – GENEROWANIE KWADRATÓW NIEKTÓRYCH LICZB:
 W zadaniu nie można używać pętli. Proszę wczytać ze standardowego wejścia liczbę N. Za pomocą
 połączenia metod Range, Where, Select, OrderBy stworzyć kolekcję kwadratów liczb od 1..N. Liczba,
 która będzie podnoszona do kwadratu musi spełniać założenia(koniunkcja):
@@ -16,19 +16,19 @@ Następnie proszę wypisać na standardowe wyjście:
 ● Liczbę elementów kolekcji
 ● Trzeci element kolekcji
 
-##ZADANIE 2 – SUMA ELEMENTÓW LOSOWEJ MACIERZY
+## ZADANIE 2 – SUMA ELEMENTÓW LOSOWEJ MACIERZY
 W zadaniu nie można używać pętli. Proszę wczytać liczby N i M. Proszę wygenerować listę list
 rozmiaru NxM i zainicjalizować ją losowymi liczbami całkowitymi. Następnie proszę użyć metody
 SelectMany w celu zsumowania wszystkich elementów i wypisania ich na standardowe wyjście.
 
-##ZADANIE 3 – GRUPOWANIE NAZW MIAST
+## ZADANIE 3 – GRUPOWANIE NAZW MIAST
 Proszę napisać program, który wczytuje ze standardowego wejścia listę miast(oddzielonych nową
 linią). Proszę użyć metody GroupBy oraz OrderBy, aby pogrupować miasta po pierwszej literze
 oraz posortować wewnątrz tej grupy w porządku leksykograficznym. Do przechowywania
 zgrupowanych danych należy użyć słownika. Miasta wczytujemy aż do napotkania symbolu „X”.
 Następnie program oczekuje podania kolejnych liter. Po podaniu litery program wypisuje
 posortowaną listę miast zaczynającą się na daną literę lub „PUSTE”.
-###Wejście 
+### Wejście 
 Paryż
 Praga
 Kraków
@@ -38,12 +38,12 @@ X
 P
 B
 
-###Wyjście
+### Wyjście
 Paryż, Pcim, Płock, Praga
 PUSTE
 
 
-##ZADANIE 4 – PRZEMIESZCZANIE SIĘ POMIĘDZY LOKACJAMI
+## ZADANIE 4 – PRZEMIESZCZANIE SIĘ POMIĘDZY LOKACJAMI
 Proszę zmodyfikować naszą grę, aby posiadała kolekcję możliwych lokacji. Na raz możemy być tylko
 w jednej lokacji. Zmodyfikujmy menu w ten sposób, aby umożliwić przemieszczanie się. Wybór opcji
 [T](od travel) spowoduje zmianę lokacji:
