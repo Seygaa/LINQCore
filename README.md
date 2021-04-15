@@ -3,7 +3,7 @@
 ## ZADANIE 1 – GENEROWANIE KWADRATÓW NIEKTÓRYCH LICZB:
 W zadaniu nie można używać pętli. Proszę wczytać ze standardowego wejścia liczbę N. Za pomocą
 połączenia metod Range, Where, Select, OrderBy stworzyć kolekcję kwadratów liczb od 1..N. Liczba,
-która będzie podnoszona do kwadratu musi spełniać założenia(koniunkcja):__
+która będzie podnoszona do kwadratu musi spełniać założenia(koniunkcja): <br />
 ● Różna od 5,
 ● Różna od 9
 ● Nieparzysta lub wielokrotność 7,
